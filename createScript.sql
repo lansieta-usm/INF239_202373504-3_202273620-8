@@ -1,8 +1,8 @@
 -- Creación de la base de datos
-CREATE DATABASE sistema_articulos;
+-- CREATE DATABASE sistema_articulos;
 
 -- Conectar a la base de datos (solo en psql)
-\c sistema_articulos;
+-- \c sistema_articulos;
 
 -- Creación de la tabla Artículo
 CREATE TABLE Articulo (

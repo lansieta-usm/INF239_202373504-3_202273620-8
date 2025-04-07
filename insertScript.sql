@@ -586,7 +586,8 @@ VALUES
 (2, 2),   -- Análisis de sistemas
 (3, 3),   -- Estadística
 (4, 4),   -- Inteligencia Artificial
-(5, 5),   -- Redes de computadoras
+(5, 5),   -- Redes de computadoras, Machine Learning
+(5, 11),
 (6, 6),   -- Seguridad informática
 (7, 7),   -- Desarrollo de software
 (8, 8),   -- Gestión de proyectos
@@ -599,7 +600,9 @@ VALUES
 (15, 15), -- Computación cuántica
 (16, 16), -- Interfaces de usuario
 (17, 17), -- Arquitectura de computadoras
-(18, 18), -- Sistemas operativos
+(18, 18), -- Sistemas operativos, Interfaces de usuario, Desarrollo de software
+(18, 16),
+(18, 7),
 (19, 19), -- Algoritmos y estructuras de datos
 (20, 20), -- Optimización de software
 (21, 21), -- Investigación operativa
@@ -613,15 +616,15 @@ VALUES
 (29, 29), -- Ciberseguridad
 (30, 30), -- Desarrollo web
 (31, 31), -- Programación orientada a objetos
-(32, 1),   -- Bases de datos
-(33, 2),   -- Análisis de sistemas
-(34, 3),   -- Estadística
-(35, 4),   -- Inteligencia Artificial
-(36, 5),   -- Redes de computadoras
-(37, 6),   -- Seguridad informática
-(38, 7),   -- Desarrollo de software
-(39, 8),   -- Gestión de proyectos
-(40, 9),   -- Sistemas distribuidos
+(32, 1),  -- Bases de datos
+(33, 2),  -- Análisis de sistemas
+(34, 3),  -- Estadística
+(35, 4),  -- Inteligencia Artificial
+(36, 5),  -- Redes de computadoras
+(37, 6),  -- Seguridad informática
+(38, 7),  -- Desarrollo de software
+(39, 8),  -- Gestión de proyectos
+(40, 9),  -- Sistemas distribuidos
 (41, 10), -- Computación en la nube
 (42, 11), -- Machine Learning
 (43, 12), -- Big Data
@@ -634,7 +637,8 @@ VALUES
 (50, 19), -- Algoritmos y estructuras de datos
 (51, 20), -- Optimización de software
 (52, 21), -- Investigación operativa
-(53, 22), -- Análisis de datos
+(53, 22), -- Análisis de datos, Estadística
+(53, 3),
 (54, 23), -- Automatización
 (55, 24), -- Programación concurrente
 (56, 25), -- Realidad virtual
@@ -644,15 +648,15 @@ VALUES
 (60, 29), -- Ciberseguridad
 (61, 30), -- Desarrollo web
 (62, 31), -- Programación orientada a objetos
-(63, 1),   -- Bases de datos
-(64, 2),   -- Análisis de sistemas
-(65, 3),   -- Estadística
-(66, 4),   -- Inteligencia Artificial
-(67, 5),   -- Redes de computadoras
-(68, 6),   -- Seguridad informática
-(69, 7),   -- Desarrollo de software
-(70, 8),   -- Gestión de proyectos
-(71, 9),   -- Sistemas distribuidos
+(63, 1),  -- Bases de datos
+(64, 2),  -- Análisis de sistemas
+(65, 3),  -- Estadística
+(66, 4),  -- Inteligencia Artificial
+(67, 5),  -- Redes de computadoras
+(68, 6),  -- Seguridad informática
+(69, 7),  -- Desarrollo de software
+(70, 8),  -- Gestión de proyectos
+(71, 9),  -- Sistemas distribuidos
 (72, 10), -- Computación en la nube
 (73, 11), -- Machine Learning
 (74, 12), -- Big Data
@@ -675,12 +679,14 @@ VALUES
 (91, 29), -- Ciberseguridad
 (92, 30), -- Desarrollo web
 (93, 31), -- Programación orientada a objetos
-(94, 1),   -- Bases de datos
-(95, 2),   -- Análisis de sistemas
-(96, 3),   -- Estadística
-(97, 4),   -- Inteligencia Artificial
-(98, 5),   -- Redes de computadoras
-(99, 6),   -- Seguridad informática
+(94, 1),  -- Bases de datos
+(95, 2),  -- Análisis de sistemas
+(96, 3),  -- Estadística
+(97, 4),  -- Inteligencia Artificial
+(98, 5),  -- Redes de computadoras, Automatización, Investigación operativa
+(98, 23),
+(98, 21),
+(99, 6),  -- Seguridad informática
 (100, 7),  -- Desarrollo de software
 (101, 8),  -- Gestión de proyectos
 (102, 9),  -- Sistemas distribuidos
@@ -727,7 +733,8 @@ VALUES
 (143, 19), -- Algoritmos y estructuras de datos
 (144, 20), -- Optimización de software
 (145, 21), -- Investigación operativa
-(146, 22), -- Análisis de datos
+(146, 22), -- Análisis de datos, Big Data
+(146, 12),
 (147, 23), -- Automatización
 (148, 24), -- Programación concurrente
 (149, 25), -- Realidad virtual
@@ -740,7 +747,8 @@ VALUES
 (156, 1),  -- Bases de datos
 (157, 2),  -- Análisis de sistemas
 (158, 3),  -- Estadística
-(159, 4),  -- Inteligencia Artificial
+(159, 4),  -- Inteligencia Artificial, Machine Learning
+(159, 11),
 (160, 5),  -- Redes de computadoras
 (161, 6),  -- Seguridad informática
 (162, 7),  -- Desarrollo de software
@@ -782,7 +790,9 @@ VALUES
 (198, 12), -- Big Data
 (199, 13), -- Blockchain
 (200, 14), -- IoT (Internet de las cosas)
-(201, 15), -- Computación cuántica
+(201, 15), -- Computación cuántica, Blockchain, Estadística
+(201, 13),
+(201, 3),
 (202, 16), -- Interfaces de usuario
 (203, 17), -- Arquitectura de computadoras
 (204, 18), -- Sistemas operativos
@@ -808,7 +818,9 @@ VALUES
 (224, 7),  -- Desarrollo de software
 (225, 8),  -- Gestión de proyectos
 (226, 9),  -- Sistemas distribuidos
-(227, 10), -- Computación en la nube
+(227, 10), -- Computación en la nube, Interfaces de usuario, Gestión de proyectos
+(227, 16),
+(227, 8),
 (228, 11), -- Machine Learning
 (229, 12), -- Big Data
 (230, 13), -- Blockchain
@@ -843,7 +855,8 @@ VALUES
 (259, 11), -- Machine Learning
 (260, 12), -- Big Data
 (261, 13), -- Blockchain
-(262, 14), -- IoT (Internet de las cosas)
+(262, 14), -- IoT (Internet de las cosas), Investigación operativa
+(262, 21),
 (263, 15), -- Computación cuántica
 (264, 16), -- Interfaces de usuario
 (265, 17), -- Arquitectura de computadoras
@@ -881,7 +894,9 @@ VALUES
 (297, 18), -- Sistemas operativos
 (298, 19), -- Algoritmos y estructuras de datos
 (299, 20), -- Optimización de software
-(300, 21), -- Investigación operativa
+(300, 21), -- Investigación operativa, Sistemas distribuidos, Estadística
+(300, 9),
+(300, 3),
 (301, 22), -- Análisis de datos
 (302, 23), -- Automatización
 (303, 24), -- Programación concurrente
@@ -920,7 +935,9 @@ VALUES
 (336, 26), -- Visión por computadora
 (337, 27), -- Procesamiento de lenguaje natural
 (338, 28), -- Redes neuronales
-(339, 29), -- Ciberseguridad
+(339, 29), -- Ciberseguridad, Seguridad Informática, Análisis de Sistemas
+(339, 6),
+(339, 2),
 (340, 30), -- Desarrollo web
 (341, 31), -- Programación orientada a objetos
 (342, 1),  -- Bases de datos
@@ -949,7 +966,8 @@ VALUES
 (365, 24), -- Programación concurrente
 (366, 25), -- Realidad virtual
 (367, 26), -- Visión por computadora
-(368, 27), -- Procesamiento de lenguaje natural
+(368, 27), -- Procesamiento de lenguaje natural, Automatización
+(368, 23),
 (369, 28), -- Redes neuronales
 (370, 29), -- Ciberseguridad
 (371, 30), -- Desarrollo web
