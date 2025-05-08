@@ -6,7 +6,7 @@
 
 -- Creación de la tabla Artículo
 CREATE TABLE Articulo (
-    id SERIAL PRIMARY KEY,
+    id int PRIMARY KEY,
     titulo VARCHAR(100) NOT NULL,
     fechaEnvio DATE NOT NULL,
     resumen VARCHAR(150)
@@ -28,13 +28,13 @@ CREATE TABLE Revisor (
 
 -- Creación de la tabla Tópico
 CREATE TABLE Topico (
-    id SERIAL PRIMARY KEY,
+    id int PRIMARY KEY,
     nombre VARCHAR(50) UNIQUE NOT NULL
 );
 
 -- Creación de la tabla Especialidad
 CREATE TABLE Especialidad (
-    id SERIAL PRIMARY KEY,
+    id int PRIMARY KEY,
     nombre VARCHAR(50) UNIQUE NOT NULL
 );
 
