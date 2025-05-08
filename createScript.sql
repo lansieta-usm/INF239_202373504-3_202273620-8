@@ -7,7 +7,7 @@
 -- Creación de la tabla Artículo
 CREATE TABLE Articulo (
     id SERIAL PRIMARY KEY,
-    titulo VARCHAR(150) NOT NULL,
+    titulo VARCHAR(100) NOT NULL,
     fechaEnvio DATE NOT NULL,
     resumen VARCHAR(150)
 );
