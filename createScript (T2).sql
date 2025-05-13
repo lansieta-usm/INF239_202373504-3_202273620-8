@@ -1,15 +1,35 @@
 -- Creación de la base de datos
 -- CREATE DATABASE sistema_articulos;
+-- CREATE DATABASE IF NOT EXISTS sistema_articulos DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- Conectar a la base de datos (solo en psql)
 -- \c sistema_articulos;
+-- USE sistema_articulos;
+
+-- Creación de la tabla de roles
+CREATE TABLE Rol (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(30) UNIQUE NOT NULL
+);
+
+-- Creación de la tabla de usuarios
+CREATE TABLE Usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    rut CHAR(10) NOT NULL,
+    nombre VARCHAR(50) UNIQUE NOT NULL,
+    email VARCHAR(40) UNIQUE NOT NULL,
+    passwd VARCHAR(255) NOT NULL, -- Guardar como hash
+    
+    idRol INT NOT NULL,
+    FOREIGN KEY (idRol) REFERENCES Rol(id) ON DELETE CASCADE
+);
 
 -- Creación de la tabla Artículo
 CREATE TABLE Articulo (
-    id int PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(100) NOT NULL,
     fechaEnvio DATE NOT NULL,
-    resumen VARCHAR(150)
+    resumen TEXT
 );
 
 -- Creación de la tabla Autor
@@ -28,13 +48,13 @@ CREATE TABLE Revisor (
 
 -- Creación de la tabla Tópico
 CREATE TABLE Topico (
-    id int PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) UNIQUE NOT NULL
 );
 
 -- Creación de la tabla Especialidad
 CREATE TABLE Especialidad (
-    id int PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) UNIQUE NOT NULL
 );
 

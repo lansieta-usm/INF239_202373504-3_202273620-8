@@ -1,3 +1,10 @@
+-- Poblar la tabla Rol con los roles
+INSERT INTO Rol (nombre)
+VALUES
+('Autor'),
+('Revisor'),
+('Jefe de Comité');
+
 -- Poblar la tabla Autor con 50 autores
 INSERT INTO Autor (rut, nombre, email)
 VALUES
